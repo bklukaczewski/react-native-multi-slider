@@ -14,7 +14,7 @@ import {
 import DefaultMarker from './DefaultMarker';
 import DefaultLabel from './DefaultLabel';
 import { createArray, valueToPosition, positionToValue } from './converters';
-import { appImages } from '../../../src/assets';
+import { appImages } from 'app/assets';
 
 export default class MultiSlider extends React.Component {
   static defaultProps = {
